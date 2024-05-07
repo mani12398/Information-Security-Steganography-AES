@@ -1,0 +1,10 @@
+C:\Users\MANI-LAPTOP\source\repos\IS_Project_Steganography\IS_Project_Steganography\bin\Debug\IS_Project_Steganography.exe.config
+C:\Users\MANI-LAPTOP\source\repos\IS_Project_Steganography\IS_Project_Steganography\bin\Debug\IS_Project_Steganography.exe
+C:\Users\MANI-LAPTOP\source\repos\IS_Project_Steganography\IS_Project_Steganography\bin\Debug\IS_Project_Steganography.pdb
+C:\Users\MANI-LAPTOP\source\repos\IS_Project_Steganography\IS_Project_Steganography\obj\Debug\IS_Project_Steganography.csproj.AssemblyReference.cache
+C:\Users\MANI-LAPTOP\source\repos\IS_Project_Steganography\IS_Project_Steganography\obj\Debug\IS_Project_Steganography.Form1.resources
+C:\Users\MANI-LAPTOP\source\repos\IS_Project_Steganography\IS_Project_Steganography\obj\Debug\IS_Project_Steganography.Properties.Resources.resources
+C:\Users\MANI-LAPTOP\source\repos\IS_Project_Steganography\IS_Project_Steganography\obj\Debug\IS_Project_Steganography.csproj.GenerateResource.cache
+C:\Users\MANI-LAPTOP\source\repos\IS_Project_Steganography\IS_Project_Steganography\obj\Debug\IS_Project_Steganography.csproj.CoreCompileInputs.cache
+C:\Users\MANI-LAPTOP\source\repos\IS_Project_Steganography\IS_Project_Steganography\obj\Debug\IS_Project_Steganography.exe
+C:\Users\MANI-LAPTOP\source\repos\IS_Project_Steganography\IS_Project_Steganography\obj\Debug\IS_Project_Steganography.pdb
