@@ -18,7 +18,7 @@ namespace IS_Project_Steganography
         public Form1()
         {
             InitializeComponent();
-
+            InitializeScrolling();
             richTextBox2.TabStop = false;
             richTextBox3.TabStop = false;
             richTextBox4.TabStop = false;
@@ -26,7 +26,46 @@ namespace IS_Project_Steganography
             textBox4.TabStop = false;
 
         }
+        private void InitializeScrolling()
+        {
+            // Create a Panel to host all controls
+            Panel panel = new Panel();
+            panel.Dock = DockStyle.Fill;
+            panel.AutoScroll = true;
 
+            // Add the Panel to the form
+            this.Controls.Add(panel);
+
+            // Set the size of the panel to fit all controls
+            panel.Controls.Add(textBox1);
+            panel.Controls.Add(richTextBox1);
+            panel.Controls.Add(richTextBox2);
+            panel.Controls.Add(label3);
+            panel.Controls.Add(label9);
+            panel.Controls.Add(button1);
+            panel.Controls.Add(button2);
+            panel.Controls.Add(button3);
+            panel.Controls.Add(button4);
+            panel.Controls.Add(button5);
+            panel.Controls.Add(button6);
+            panel.Controls.Add(pictureBox2);
+            panel.Controls.Add(pictureBox3);
+            panel.Controls.Add(textBox2);
+            panel.Controls.Add(textBox3);
+            panel.Controls.Add(textBox4);
+            panel.Controls.Add(richTextBox3);
+            panel.Controls.Add(richTextBox4);
+            panel.Controls.Add(label13);
+            panel.Controls.Add(label14);
+
+            // Adjust the size of the panel
+            int totalHeight = 0;
+            foreach (Control control in panel.Controls)
+            {
+                totalHeight += control.Height;
+            }
+            panel.ClientSize = new Size(panel.ClientSize.Width, totalHeight + 10); // Add a small padding
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
             
@@ -460,6 +499,11 @@ namespace IS_Project_Steganography
             label13.Text = "";
             label14.Text = "";
             richTextBox1.Clear();
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }
