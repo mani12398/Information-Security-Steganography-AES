@@ -397,20 +397,20 @@ namespace IS_Project_Steganography
                     {
                         label14.Text = "Plain Text Match.";
                         label14.ForeColor = Color.Green;
-                        //textBox1.Clear();
-                        //richTextBox2.Clear();
-                        //pictureBox2.Image = null;
-                        //textBox3.Clear();
-                        //pictureBox3.Image = null;
-                        //textBox4.Clear();
-                        //richTextBox3.Clear();
-                        //textBox2.Clear();
-                        //label3.Text = "Character Count:";
-                        //label9.Text = "Character Count:";
-                        //label3.ForeColor = Color.DarkSlateGray;
-                        //label9.ForeColor = Color.DarkSlateGray;
-                        //label13.Text = "";
-                        //label14.Text = "";
+                        textBox1.Clear();
+                        richTextBox2.Clear();
+                        pictureBox2.Image = null;
+                        textBox3.Clear();
+                        pictureBox3.Image = null;
+                        textBox4.Clear();
+                        richTextBox3.Clear();
+                        textBox2.Clear();
+                        label3.Text = "Character Count:";
+                        label9.Text = "Character Count:";
+                        label3.ForeColor = Color.DarkSlateGray;
+                        label9.ForeColor = Color.DarkSlateGray;
+                        label13.Text = "";
+                        label14.Text = "";
 
 
                     }
