@@ -19,12 +19,14 @@ namespace IS_Project_Steganography
         {
             InitializeComponent();
             InitializeScrolling();
+            richTextBox1.Focus();
             richTextBox2.TabStop = false;
             richTextBox3.TabStop = false;
             richTextBox4.TabStop = false;
             textBox3.TabStop = false;
+            textBox1.TabStop = false;
             textBox4.TabStop = false;
-
+            this.Shown += new EventHandler(Form1_Shown);
         }
         private void InitializeScrolling()
         {
@@ -68,6 +70,7 @@ namespace IS_Project_Steganography
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+            richTextBox1.Focus();
             
         }
 
@@ -505,6 +508,44 @@ namespace IS_Project_Steganography
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            string randomKey = GenerateRandomKey(16);
+            textBox1.Text = randomKey;
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            string randomKey = GenerateRandomKey(24);
+            textBox1.Text = randomKey;
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            string randomKey = GenerateRandomKey(32);
+            textBox1.Text = randomKey;
+        }
+
+        private string GenerateRandomKey(int length)
+        {
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;:,.<>?";
+
+            StringBuilder result = new StringBuilder(length);
+            Random random = new Random();
+
+            for (int i = 0; i < length; i++)
+            {
+                result.Append(chars[random.Next(chars.Length)]);
+            }
+
+            return result.ToString();
+        }
+
+        private void Form1_Shown(object sender, EventArgs e)
+        {
+            richTextBox1.Focus();
         }
     }
 }
