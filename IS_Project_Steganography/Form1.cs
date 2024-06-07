@@ -59,9 +59,10 @@ namespace IS_Project_Steganography
             panel.Controls.Add(button11);
             panel.Controls.Add(button10);
             panel.Controls.Add(button7);
+            panel.Controls.Add(button8);
 
 
-           
+
             int totalHeight = 0;
             foreach (Control control in panel.Controls)
             {
@@ -138,6 +139,17 @@ namespace IS_Project_Steganography
             int characterCount = text.Length;
             label9.Text = $"Character Count: {characterCount}";
             label9.ForeColor = Color.Green;
+
+            if (textBox1.Text == textBox2.Text)
+            {
+                label15.Text = "Key Matched.";
+                label15.ForeColor = Color.Green;
+            }
+            else
+            {
+                label15.Text = "Key do not Match.";
+                label15.ForeColor = Color.Red;
+            }
         }
 
         private void richTextBox4_TextChanged(object sender, EventArgs e)
@@ -489,6 +501,7 @@ namespace IS_Project_Steganography
             label14.Text = "";
             richTextBox1.Clear();
             Clipboard.Clear();
+            label15.Text = "";
 
         }
 
@@ -542,12 +555,28 @@ namespace IS_Project_Steganography
             {
                 
                 Clipboard.SetText(textBox1.Text);
-                MessageBox.Show("Text copied to clipboard.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
             }
-            else
+            
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            if (Clipboard.ContainsText())
             {
-                MessageBox.Show("There is no text to copy.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                textBox2.Text = Clipboard.GetText();
             }
+            
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Clipboard.Clear();
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

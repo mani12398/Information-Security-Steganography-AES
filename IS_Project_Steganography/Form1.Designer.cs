@@ -64,6 +64,8 @@
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.label15 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -213,11 +215,11 @@
             // 
             this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox4.Location = new System.Drawing.Point(328, 615);
+            this.richTextBox4.Location = new System.Drawing.Point(328, 637);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.ReadOnly = true;
             this.richTextBox4.Size = new System.Drawing.Size(236, 97);
-            this.richTextBox4.TabIndex = 16;
+            this.richTextBox4.TabIndex = 17;
             this.richTextBox4.Text = "";
             this.richTextBox4.TextChanged += new System.EventHandler(this.richTextBox4_TextChanged);
             // 
@@ -226,10 +228,10 @@
             this.button5.BackColor = System.Drawing.Color.SeaGreen;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Transparent;
-            this.button5.Location = new System.Drawing.Point(359, 718);
+            this.button5.Location = new System.Drawing.Point(359, 740);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(162, 54);
-            this.button5.TabIndex = 17;
+            this.button5.TabIndex = 18;
             this.button5.Text = "Generate Plain Text ";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -342,7 +344,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label10.Location = new System.Drawing.Point(246, 651);
+            this.label10.Location = new System.Drawing.Point(246, 673);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(76, 16);
             this.label10.TabIndex = 24;
@@ -410,7 +412,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label14.Location = new System.Drawing.Point(572, 655);
+            this.label14.Location = new System.Drawing.Point(572, 677);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(0, 16);
             this.label14.TabIndex = 30;
@@ -424,7 +426,7 @@
             this.button6.Location = new System.Drawing.Point(28, 680);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(162, 54);
-            this.button6.TabIndex = 18;
+            this.button6.TabIndex = 19;
             this.button6.Text = "CLEAR ALL";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
@@ -481,11 +483,37 @@
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.Coral;
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.Transparent;
+            this.button8.Location = new System.Drawing.Point(570, 552);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(79, 40);
+            this.button8.TabIndex = 16;
+            this.button8.Text = "Paste";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label15.Location = new System.Drawing.Point(328, 605);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(0, 15);
+            this.label15.TabIndex = 31;
+            this.label15.Click += new System.EventHandler(this.label15_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1282, 799);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
@@ -525,6 +553,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Steganography";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Shown += new System.EventHandler(this.Form1_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -572,6 +601,8 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Label label15;
     }
 }
 
