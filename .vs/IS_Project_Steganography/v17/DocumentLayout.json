@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\MANI-LAPTOP\\source\\repos\\IS_Project_Steganography\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB5759A1-D084-4AD7-842E-D72BF80CD1D0}|IS_Project_Steganography\\IS_Project_Steganography.csproj|c:\\users\\mani-laptop\\source\\repos\\is_project_steganography\\is_project_steganography\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AB5759A1-D084-4AD7-842E-D72BF80CD1D0}|IS_Project_Steganography\\IS_Project_Steganography.csproj|solutionrelative:is_project_steganography\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AB5759A1-D084-4AD7-842E-D72BF80CD1D0}|IS_Project_Steganography\\IS_Project_Steganography.csproj|C:\\Users\\MANI-LAPTOP\\source\\repos\\IS_Project_Steganography\\is_project_steganography\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB5759A1-D084-4AD7-842E-D72BF80CD1D0}|IS_Project_Steganography\\IS_Project_Steganography.csproj|solutionrelative:is_project_steganography\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB5759A1-D084-4AD7-842E-D72BF80CD1D0}|IS_Project_Steganography\\IS_Project_Steganography.csproj|c:\\users\\mani-laptop\\source\\repos\\is_project_steganography\\is_project_steganography\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB5759A1-D084-4AD7-842E-D72BF80CD1D0}|IS_Project_Steganography\\IS_Project_Steganography.csproj|solutionrelative:is_project_steganography\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB5759A1-D084-4AD7-842E-D72BF80CD1D0}|IS_Project_Steganography\\IS_Project_Steganography.csproj|c:\\users\\mani-laptop\\source\\repos\\is_project_steganography\\is_project_steganography\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB5759A1-D084-4AD7-842E-D72BF80CD1D0}|IS_Project_Steganography\\IS_Project_Steganography.csproj|solutionrelative:is_project_steganography\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,25 +26,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\MANI-LAPTOP\\source\\repos\\IS_Project_Steganography\\IS_Project_Steganography\\Form1.cs",
               "RelativeDocumentMoniker": "IS_Project_Steganography\\Form1.cs",
-              "ToolTip": "C:\\Users\\MANI-LAPTOP\\source\\repos\\IS_Project_Steganography\\IS_Project_Steganography\\Form1.cs*",
-              "RelativeToolTip": "IS_Project_Steganography\\Form1.cs*",
-              "ViewState": "AQIAAA8CAAAAAAAAAAAUwCMCAAAhAAAA",
+              "ToolTip": "C:\\Users\\MANI-LAPTOP\\source\\repos\\IS_Project_Steganography\\IS_Project_Steganography\\Form1.cs",
+              "RelativeToolTip": "IS_Project_Steganography\\Form1.cs",
+              "ViewState": "AQIAANgBAAAAAAAAAAAjwP0BAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T09:07:17.599Z",
+              "WhenOpened": "2024-06-07T09:35:48.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\MANI-LAPTOP\\source\\repos\\IS_Project_Steganography\\IS_Project_Steganography\\Form1.cs",
               "RelativeDocumentMoniker": "IS_Project_Steganography\\Form1.cs",
-              "ToolTip": "C:\\Users\\MANI-LAPTOP\\source\\repos\\IS_Project_Steganography\\IS_Project_Steganography\\Form1.cs [Design]*",
-              "RelativeToolTip": "IS_Project_Steganography\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\MANI-LAPTOP\\source\\repos\\IS_Project_Steganography\\IS_Project_Steganography\\Form1.cs [Design]",
+              "RelativeToolTip": "IS_Project_Steganography\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T09:07:10.811Z",
               "EditorCaption": " [Design]"

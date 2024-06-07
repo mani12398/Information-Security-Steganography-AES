@@ -59,6 +59,11 @@ namespace IS_Project_Steganography
             panel.Controls.Add(richTextBox4);
             panel.Controls.Add(label13);
             panel.Controls.Add(label14);
+            panel.Controls.Add(button9);
+            panel.Controls.Add(button11);
+            panel.Controls.Add(button10);
+            panel.Controls.Add(button7);
+
 
             // Adjust the size of the panel
             int totalHeight = 0;
@@ -502,6 +507,7 @@ namespace IS_Project_Steganography
             label13.Text = "";
             label14.Text = "";
             richTextBox1.Clear();
+            Clipboard.Clear();
 
         }
 
@@ -546,6 +552,21 @@ namespace IS_Project_Steganography
         private void Form1_Shown(object sender, EventArgs e)
         {
             richTextBox1.Focus();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            // Check if the TextBox contains text
+            if (!string.IsNullOrEmpty(textBox1.Text))
+            {
+                // Copy the text to the clipboard
+                Clipboard.SetText(textBox1.Text);
+                MessageBox.Show("Text copied to clipboard.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("There is no text to copy.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }

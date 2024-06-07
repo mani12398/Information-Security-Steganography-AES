@@ -63,6 +63,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -109,7 +110,7 @@
             this.button1.Location = new System.Drawing.Point(150, 459);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(160, 44);
-            this.button1.TabIndex = 5;
+            this.button1.TabIndex = 8;
             this.button1.Text = "Generate Ciphertext ";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -144,7 +145,7 @@
             this.button2.Location = new System.Drawing.Point(650, 411);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(90, 39);
-            this.button2.TabIndex = 7;
+            this.button2.TabIndex = 10;
             this.button2.Text = "Browse";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -156,7 +157,7 @@
             this.button3.Location = new System.Drawing.Point(1058, 409);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(120, 39);
-            this.button3.TabIndex = 9;
+            this.button3.TabIndex = 12;
             this.button3.Text = "Encode Image";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -169,7 +170,7 @@
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.ReadOnly = true;
             this.richTextBox2.Size = new System.Drawing.Size(236, 97);
-            this.richTextBox2.TabIndex = 0;
+            this.richTextBox2.TabIndex = 7;
             this.richTextBox2.Text = "";
             this.richTextBox2.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
             // 
@@ -181,7 +182,7 @@
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.ReadOnly = true;
             this.richTextBox3.Size = new System.Drawing.Size(236, 97);
-            this.richTextBox3.TabIndex = 10;
+            this.richTextBox3.TabIndex = 13;
             this.richTextBox3.Text = "";
             this.richTextBox3.TextChanged += new System.EventHandler(this.richTextBox3_TextChanged);
             // 
@@ -193,7 +194,7 @@
             this.button4.Location = new System.Drawing.Point(818, 583);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(161, 48);
-            this.button4.TabIndex = 11;
+            this.button4.TabIndex = 14;
             this.button4.Text = "Generate Ciphertext ";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -205,7 +206,7 @@
             this.textBox2.MaxLength = 32;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(236, 26);
-            this.textBox2.TabIndex = 12;
+            this.textBox2.TabIndex = 15;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // richTextBox4
@@ -216,7 +217,7 @@
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.ReadOnly = true;
             this.richTextBox4.Size = new System.Drawing.Size(236, 97);
-            this.richTextBox4.TabIndex = 13;
+            this.richTextBox4.TabIndex = 16;
             this.richTextBox4.Text = "";
             this.richTextBox4.TextChanged += new System.EventHandler(this.richTextBox4_TextChanged);
             // 
@@ -228,7 +229,7 @@
             this.button5.Location = new System.Drawing.Point(359, 718);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(162, 54);
-            this.button5.TabIndex = 14;
+            this.button5.TabIndex = 17;
             this.button5.Text = "Generate Plain Text ";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -356,7 +357,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(280, 52);
-            this.textBox3.TabIndex = 6;
+            this.textBox3.TabIndex = 9;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label11
@@ -390,7 +391,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(280, 53);
-            this.textBox4.TabIndex = 8;
+            this.textBox4.TabIndex = 11;
             this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label13
@@ -423,7 +424,7 @@
             this.button6.Location = new System.Drawing.Point(28, 680);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(162, 54);
-            this.button6.TabIndex = 15;
+            this.button6.TabIndex = 18;
             this.button6.Text = "CLEAR ALL";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
@@ -467,11 +468,25 @@
             this.button11.UseVisualStyleBackColor = false;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.Transparent;
+            this.button7.Location = new System.Drawing.Point(359, 214);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(79, 40);
+            this.button7.TabIndex = 6;
+            this.button7.Text = "Copy";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1282, 799);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
@@ -556,6 +571,7 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button7;
     }
 }
 
